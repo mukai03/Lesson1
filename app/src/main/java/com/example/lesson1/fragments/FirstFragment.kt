@@ -6,7 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+<<<<<<< HEAD
 import androidx.fragment.app.viewModels
+=======
+>>>>>>> bd9a758 (1.1)
 import androidx.lifecycle.ViewModelProvider
 import com.example.lesson1.MainViewModel
 import com.example.lesson1.databinding.FragmentFirstBinding

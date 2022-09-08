@@ -28,7 +28,11 @@ class SecondFragment : Fragment() {
         viewModel = ViewModelProvider(requireActivity())[MainViewModel::class.java]
         viewModel.counter.observe(viewLifecycleOwner){
             binding.count.text = it.toString()
+<<<<<<< HEAD
             Log.e("ololo", "onViewCreated:", )
+=======
+            Log.e("oleo", "onViewCreated:" )
+>>>>>>> bd9a758 (1.1)
         }
         /*viewModel.onIncrementClick()
         viewModel.onDecrementClick()

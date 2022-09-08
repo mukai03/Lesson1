@@ -6,7 +6,11 @@ import androidx.lifecycle.*
      private var mCounter = 0
      val counter = MutableLiveData<Int>()
      val result = MutableLiveData<ArrayList<String>>()
+<<<<<<< HEAD
      var list: ArrayList<String> = ArrayList()
+=======
+     private var list: ArrayList<String> = ArrayList()
+>>>>>>> bd9a758 (1.1)
 
      fun onIncrementClick() {
          mCounter++
